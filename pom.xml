@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.example.test</groupId>
 	<artifactId>aws-test</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>aws-test</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -47,6 +47,8 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+
+		<finalName>aws-test</finalName>
 	</build>
 
 </project>

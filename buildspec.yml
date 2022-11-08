@@ -1,0 +1,18 @@
+version  : 0.1
+
+phases:
+  build:
+    commands:
+      -echo entered build phase
+      -mvn clean package
+
+  post_build:
+    commands:
+      -echo build completed successfully
+
+artifacts:
+  files:
+    -target/aws-test.
+
+  discarded-paths : yes
+
